@@ -1,0 +1,15 @@
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\bin\Debug\net8.0\DesafioVoidStatic.exe
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\bin\Debug\net8.0\DesafioVoidStatic.deps.json
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\bin\Debug\net8.0\DesafioVoidStatic.runtimeconfig.json
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\bin\Debug\net8.0\DesafioVoidStatic.dll
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\bin\Debug\net8.0\DesafioVoidStatic.pdb
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.AssemblyInfo.cs
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.sourcelink.json
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.dll
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\refint\DesafioVoidStatic.dll
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.pdb
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\DesafioVoidStatic.genruntimeconfig.cache
+C:\Users\felip\source\repos\LeetCode\DesafioVoidStatic\DesafioVoidStatic\obj\Debug\net8.0\ref\DesafioVoidStatic.dll
