@@ -1,0 +1,15 @@
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\bin\Debug\net8.0\exercicio-classesAbtratas-e-interface.exe
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\bin\Debug\net8.0\exercicio-classesAbtratas-e-interface.deps.json
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\bin\Debug\net8.0\exercicio-classesAbtratas-e-interface.runtimeconfig.json
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\bin\Debug\net8.0\exercicio-classesAbtratas-e-interface.dll
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\bin\Debug\net8.0\exercicio-classesAbtratas-e-interface.pdb
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.AssemblyInfo.cs
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.sourcelink.json
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.dll
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\refint\exercicio-classesAbtratas-e-interface.dll
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.pdb
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\exercicio-classesAbtratas-e-interface.genruntimeconfig.cache
+C:\Users\felip\source\repos\LeetCode\exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface\obj\Debug\net8.0\ref\exercicio-classesAbtratas-e-interface.dll

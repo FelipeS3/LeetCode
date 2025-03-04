@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio-classesAbtratas-e-interface", "exercicio-classesAbtratas-e-interface\exercicio-classesAbtratas-e-interface.csproj", "{9BE7AB4C-8785-4934-9047-8BADD01E3EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE7AB4C-8785-4934-9047-8BADD01E3EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE7AB4C-8785-4934-9047-8BADD01E3EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE7AB4C-8785-4934-9047-8BADD01E3EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE7AB4C-8785-4934-9047-8BADD01E3EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB4E455D-7FED-4861-B4E6-ECDA358EADB8}
+	EndGlobalSection
+EndGlobal
