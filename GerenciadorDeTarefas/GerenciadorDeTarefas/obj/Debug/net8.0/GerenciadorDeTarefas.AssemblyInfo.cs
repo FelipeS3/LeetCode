@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SomaDosPares")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorDeTarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7a417585c86b377d6e1f5944bf04d3b310dfec")]
-[assembly: System.Reflection.AssemblyProductAttribute("SomaDosPares")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SomaDosPares")]
+[assembly: System.Reflection.AssemblyProductAttribute("GerenciadorDeTarefas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorDeTarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
