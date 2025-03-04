@@ -1,0 +1,15 @@
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\bin\Debug\net8.0\exercicios-dicionary.exe
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\bin\Debug\net8.0\exercicios-dicionary.deps.json
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\bin\Debug\net8.0\exercicios-dicionary.runtimeconfig.json
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\bin\Debug\net8.0\exercicios-dicionary.dll
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\bin\Debug\net8.0\exercicios-dicionary.pdb
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.AssemblyInfo.cs
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.sourcelink.json
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.dll
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\refint\exercicios-dicionary.dll
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.pdb
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\exercicios-dicionary.genruntimeconfig.cache
+C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\exercicios-dicionary\obj\Debug\net8.0\ref\exercicios-dicionary.dll

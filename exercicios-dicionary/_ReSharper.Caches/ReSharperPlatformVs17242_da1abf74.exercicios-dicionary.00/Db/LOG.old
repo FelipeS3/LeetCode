@@ -1,0 +1,14 @@
+2025/02/21-11:36:43.635000 27768 Creating DB C:\Users\felip\source\repos\LeetCode\exercicios-dicionary\_ReSharper.Caches\ReSharperPlatformVs17242_da1abf74.exercicios-dicionary.00\Db since it was missing.
+2025/02/21-11:36:43.656000 27768 Delete type=3 #1
+2025/02/21-11:44:32.256000 24148 Level-0 table #5: started
+2025/02/21-11:44:32.274000 24148 Level-0 table #5: 3186977 bytes OK
+2025/02/21-11:44:32.277000 24148 Delete type=0 #3
+2025/02/21-17:34:56.837000 24148 Level-0 table #7: started
+2025/02/21-17:34:56.914000 24148 Level-0 table #7: 2464005 bytes OK
+2025/02/21-17:34:56.917000 24148 Delete type=0 #4
+2025/02/21-17:35:10.776000 24148 Compacting 1@1 + 1@2 files
+2025/02/21-17:35:10.815000 24148 Generated table #8@1: 3097 keys, 1558352 bytes
+2025/02/21-17:35:10.815000 24148 Compacted 1@1 + 1@2 files => 1558352 bytes
+2025/02/21-17:35:10.818000 24148 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/21-17:35:10.818000 24148 Delete type=2 #5
+2025/02/21-17:35:10.819000 24148 Delete type=2 #7
