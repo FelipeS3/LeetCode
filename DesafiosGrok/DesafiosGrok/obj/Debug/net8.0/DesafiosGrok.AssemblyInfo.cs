@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesafiosGrok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff8b3722a5b78f99f3373ac0ba3ac7e64b88e3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11098ccbee8f2d5e52cbb654897bce10fa9745df")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesafiosGrok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesafiosGrok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
