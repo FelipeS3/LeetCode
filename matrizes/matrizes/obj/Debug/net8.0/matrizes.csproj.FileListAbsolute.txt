@@ -1,0 +1,15 @@
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\bin\Debug\net8.0\matrizes.exe
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\bin\Debug\net8.0\matrizes.deps.json
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\bin\Debug\net8.0\matrizes.runtimeconfig.json
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\bin\Debug\net8.0\matrizes.dll
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\bin\Debug\net8.0\matrizes.pdb
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.AssemblyInfo.cs
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.sourcelink.json
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.dll
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\refint\matrizes.dll
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.pdb
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\matrizes.genruntimeconfig.cache
+C:\Users\felip\source\repos\LeetCode\matrizes\matrizes\obj\Debug\net8.0\ref\matrizes.dll
