@@ -6,12 +6,12 @@
         {
             int[] array = {1,2,3,4,2,5,6};
 
-            int resultado = RepeatedNumber(array);
+            int resultado = FindFirstRepeatedNumber(array);
 
             Console.WriteLine(resultado);
         }
 
-        private static int RepeatedNumber(int[] array)
+        private static int FindFirstRepeatedNumber(int[] array)
         {
             Dictionary<int, int> contagens = new Dictionary<int, int>();
 
