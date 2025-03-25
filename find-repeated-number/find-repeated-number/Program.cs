@@ -6,28 +6,28 @@
         {
             int[] array = {1,2,3,4,2,5,6};
 
-            int resultado = FindFirstRepeatedNumber(array);
+            int result = FindFirstRepeatedNumber(array);
 
-            Console.WriteLine(resultado);
+            Console.WriteLine(result);
         }
 
         private static int FindFirstRepeatedNumber(int[] array)
         {
-            Dictionary<int, int> contagens = new Dictionary<int, int>();
+            Dictionary<int, int> counts = new Dictionary<int, int>();
 
             foreach (int num in array)
             {
-                if (contagens.ContainsKey(num))
+                if (counts.ContainsKey(num))
                 {
-                    contagens[num]++;
+                    counts[num]++;
                 }
                 else
                 {
-                    contagens[num] = 1;
+                    counts[num] = 1;
                 }
             }
 
-            foreach (var par in contagens)
+            foreach (var par in counts)
             {
                 if (par.Value > 1)
                 {
