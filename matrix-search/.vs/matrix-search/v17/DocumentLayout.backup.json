@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\matrix-search\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A988D1B3-4927-4A1A-952E-3BEE19E3D058}|matrix-search\\matrix-search.csproj|c:\\users\\felip\\source\\repos\\algorithm-practice\\matrix-search\\matrix-search\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A988D1B3-4927-4A1A-952E-3BEE19E3D058}|matrix-search\\matrix-search.csproj|solutionrelative:matrix-search\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\matrix-search\\matrix-search\\Program.cs",
+              "RelativeDocumentMoniker": "matrix-search\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\matrix-search\\matrix-search\\Program.cs",
+              "RelativeToolTip": "matrix-search\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:32:32.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
