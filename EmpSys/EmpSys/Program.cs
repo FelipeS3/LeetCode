@@ -1,23 +1,23 @@
 ﻿namespace EmpSys
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
             try
             {
-                var fullTime = new FullTimeEmployee(1, "João", "TI", 5000.0);
-                Console.WriteLine(fullTime.GetRoleDescription());
-                fullTime.ShowDetails();
-                Console.WriteLine($"Pagamento: {fullTime.CalculatePay()}");
+                var employees = new List<Employee>
+                {
+                    new FullTimeEmployee(1, "João", "TI", 5000.0),
+                    new PartTimeEmployee(2, "Maria", "Vendas", 20.0, 60),
+                    new FullTimeEmployee(3, "Pedro", "RH", 4000.0)
+                };
 
-                var partTime = new PartTimeEmployee(2, "Maria", "Vendas", 20.0, 60);
-                Console.WriteLine(partTime.GetRoleDescription());
-                Console.WriteLine($"Pagamento: {partTime.CalculatePay()}");
-                Console.WriteLine($"Pagamento com bônus: {partTime.CalculatePayWithBonus()}");
+                double highestSalary = PayrollAnalyzer.FindHighestSalary(employees);
+                Console.WriteLine($"Maior salário: {highestSalary}");
 
-                //erro
-                var invalid = new FullTimeEmployee(-1, "", "RH", 3000.0);
+                var emptyList = new List<Employee>();
+                Console.WriteLine($"Maior salário (lista vazia): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
             }
             catch (ArgumentException ex)
             {
@@ -101,11 +101,9 @@
             {
                 return basePay * 1.05;
             }
-
             return basePay;
         }
     }
-
     public class EmployeeValidator
     {
         public static void ValidateId(int id)
@@ -121,6 +119,16 @@
         public static void ValidateHourlyRate(double hourlyRate)
         {
             if (hourlyRate < 0) throw new ArgumentException("Valor por hora não pode ser negativo!");
+        }
+    }
+
+    public class PayrollAnalyzer
+    {
+        public static double FindHighestSalary(List<Employee> employees)
+        {
+            if (employees == null || employees.Count == 0) throw new ArgumentException("A lista de funcionários não pode ser nula ou vazia.");
+
+            return employees.Max(x => x.CalculatePay());
         }
     }
 }

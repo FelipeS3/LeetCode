@@ -1,0 +1,15 @@
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\bin\Debug\net8.0\EmpSys.exe
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\bin\Debug\net8.0\EmpSys.deps.json
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\bin\Debug\net8.0\EmpSys.runtimeconfig.json
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\bin\Debug\net8.0\EmpSys.dll
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\bin\Debug\net8.0\EmpSys.pdb
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.AssemblyInfo.cs
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.sourcelink.json
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.dll
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\refint\EmpSys.dll
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.pdb
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\EmpSys.genruntimeconfig.cache
+C:\Users\felip\source\repos\algorithm-practice\EmpSys\EmpSys\obj\Debug\net8.0\ref\EmpSys.dll
