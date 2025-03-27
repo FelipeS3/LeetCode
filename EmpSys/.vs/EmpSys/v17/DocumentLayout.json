@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\EmpSys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41A2E96F-AC15-4FE6-836F-66E51AD57C20}|EmpSys\\EmpSys.csproj|c:\\users\\felip\\source\\repos\\algorithm-practice\\empsys\\empsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A2E96F-AC15-4FE6-836F-66E51AD57C20}|EmpSys\\EmpSys.csproj|solutionrelative:empsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\EmpSys\\EmpSys\\Program.cs",
+              "RelativeDocumentMoniker": "EmpSys\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\EmpSys\\EmpSys\\Program.cs",
+              "RelativeToolTip": "EmpSys\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:12:11.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
