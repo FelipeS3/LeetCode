@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\",
+  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\algorithm-practice\\last-letter-occurrence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D04A7B0-6612-42F2-8F44-3406CC02FE60}|desafio\\desafio.csproj|c:\\users\\felip\\source\\repos\\leetcode\\desafio \u00FAltima ocorr\u00EAncia de uma letra\\desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D04A7B0-6612-42F2-8F44-3406CC02FE60}|desafio\\desafio.csproj|solutionrelative:desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\felip\\source\\repos\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\desafio\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,13 +28,11 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\desafio\\Program.cs",
-              "RelativeDocumentMoniker": "desafio\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\desafio\\Program.cs",
               "ToolTip": "C:\\Users\\felip\\source\\repos\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\desafio\\Program.cs",
-              "RelativeToolTip": "desafio\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\LeetCode\\Desafio \u00DAltima Ocorr\u00EAncia de Uma Letra\\desafio\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:30:30.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T07:30:30.992Z"
             }
           ]
         }
