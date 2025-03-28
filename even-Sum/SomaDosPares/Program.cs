@@ -4,23 +4,18 @@
     {
         static void Main(string[] args)
         {
-            SomaPares();
+            Console.WriteLine(SumEvenToN(6));
         }
-        static void SomaPares()
+        private static int SumEvenToN(int n)
         {
-            Console.WriteLine("Digite um numero");
-            int num = Convert.ToInt32(Console.ReadLine());
-            int soma = 0;
+            int sum = 0;
 
-            for (int i = 0; i <= num; i++)
+            for (int i = 0; i <= n; i++)
             {
-                if (i % 2 == 0)
-                {
-                    soma += i;
-                }
+                if (i % 2 == 0) sum += i;
             }
-            Console.WriteLine($"A soma dos numeros pares de 1 ate {num} é {soma}");
 
+            return sum;
         }
     }
 }
