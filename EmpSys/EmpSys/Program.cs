@@ -1,6 +1,7 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Collections.Generic;
 
-namespace EmpSys
+namespace EmployeeSystem
 {
     class Program
     {
@@ -10,41 +11,35 @@ namespace EmpSys
             {
                 var employees = new List<Employee>
                 {
-                    new FullTimeEmployee(1, "João", "TI", 5000.0),
-                    new PartTimeEmployee(2, "Maria", "Vendas", 20.0, 60),
-                    new FullTimeEmployee(3, "Pedro", "RH", 4000.0)
+                    new FullTimeEmployee(1, "João", "IT", 5000.0m),
+                    new PartTimeEmployee(2, "Maria", "Sales", 20.0m, 60),
+                    new FullTimeEmployee(3, "Pedro", "HR", 4000.0m)
                 };
 
-                var fullTimeEmployeer = PayrollAnalyzer.CountFullTimeEmployees(employees);
+                int fullTimeEmployeeCount = PayrollAnalyzer.CountFullTimeEmployees(employees);
+                decimal highestSalary = PayrollAnalyzer.FindHighestSalary(employees);
+                decimal fullTimeSalarySum = PayrollAnalyzer.SumFullTimeSalaries(employees);
 
-                double highestSalary = PayrollAnalyzer.FindHighestSalary(employees);
+                Console.WriteLine($"Highest salary among all employees: {highestSalary}");
+                Console.WriteLine($"Total salary of full-time employees: {fullTimeSalarySum}");
+                Console.WriteLine($"Number of full-time employees: {fullTimeEmployeeCount}");
 
-                Console.WriteLine($"Maior salário: {highestSalary}");
-
-                Console.WriteLine($"Soma dos salários: {PayrollAnalyzer.SumFullTimeSalaries(employees)}");
-
-                //var emptyList = new List<Employee>();
-                //Console.WriteLine($"Maior salário (empty list): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
-
-                Console.WriteLine($"Numero de FullTimeEmployees: {fullTimeEmployeer}");
-
-                var employee = PayrollAnalyzer.FindEmployeeById(2, employees);
-                if (employee != null) Console.WriteLine($"Funcionário encontrado: {employee.Name}, {employee.CalculatePay()}");
-
+                Employee foundEmployee = PayrollAnalyzer.FindEmployeeById(employees, 2);
+                if (foundEmployee != null)
+                {
+                    Console.WriteLine($"Employee found: {foundEmployee.Name}, Salary: {foundEmployee.CalculatePay()}");
+                }
                 else
                 {
-                    Console.WriteLine("Funcionário não encontrado");
+                    Console.WriteLine("Employee not found.");
                 }
-
-
             }
             catch (ArgumentException ex)
             {
-                Console.WriteLine($"Erro: {ex.Message}");
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
     }
-
     public abstract class Employee
     {
         protected Employee(int id, string name, string department)
@@ -60,39 +55,40 @@ namespace EmpSys
         public string Name { get; private set; }
         public string Department { get; private set; }
 
-        public abstract double CalculatePay();
+        public abstract decimal CalculatePay();
+
         public abstract string GetRoleDescription();
     }
 
     public class FullTimeEmployee : Employee
     {
-        public FullTimeEmployee(int id, string name, string department, double monthlySalary)
+        public FullTimeEmployee(int id, string name, string department, decimal monthlySalary)
             : base(id, name, department)
         {
             MonthlySalary = monthlySalary;
         }
 
-        public double MonthlySalary { get; private set; }
+        public decimal MonthlySalary { get; private set; }
 
-        public override double CalculatePay()
+        public override decimal CalculatePay()
         {
             return MonthlySalary;
         }
 
         public override string GetRoleDescription()
         {
-            return $"Funcionário integral do departamento: {Department}";
+            return $"Full-time employee in the {Department} department";
         }
 
         public void ShowDetails()
         {
-            Console.WriteLine($"Id: {Id}, Nome: {Name}, Departamento: {Department}, Salário mensal: {MonthlySalary}");
+            Console.WriteLine($"Id: {Id}, Name: {Name}, Department: {Department}, Monthly Salary: {MonthlySalary}");
         }
     }
 
     public class PartTimeEmployee : Employee
     {
-        public PartTimeEmployee(int id, string name, string department, double hourlyRate, int hoursWorked)
+        public PartTimeEmployee(int id, string name, string department, decimal hourlyRate, int hoursWorked)
             : base(id, name, department)
         {
             EmployeeValidator.ValidateHourlyRate(hourlyRate);
@@ -100,56 +96,56 @@ namespace EmpSys
             HoursWorked = hoursWorked;
         }
 
-        public double HourlyRate { get; private set; }
+        public decimal HourlyRate { get; private set; }
         public int HoursWorked { get; private set; }
 
-        public override double CalculatePay()
+        public override decimal CalculatePay()
         {
-            return HoursWorked * HourlyRate;
+            return HourlyRate * HoursWorked;
         }
 
         public override string GetRoleDescription()
         {
-            return $"Funcionário meio período do departamento: {Department}";
+            return $"Part-time employee in the {Department} department";
         }
 
-        public double CalculatePayWithBonus()
+        public decimal CalculatePayWithBonus()
         {
-            var basePay = CalculatePay();
+            decimal basePay = CalculatePay();
             if (HoursWorked > 50)
             {
-                return basePay * 1.05;
+                return basePay * 1.05m;
             }
             return basePay;
         }
     }
-    public class EmployeeValidator
+
+    public static class EmployeeValidator
     {
         public static void ValidateId(int id)
         {
-            if (id < 0) throw new ArgumentException("O campo Id não pode ser negativo!");
+            if (id < 0) throw new ArgumentException("Employee ID cannot be negative.");
         }
 
         public static void ValidateName(string name)
         {
-            if (string.IsNullOrEmpty(name)) throw new ArgumentException("O campo Nome não pode ser vazio ou nulo!");
+            if (string.IsNullOrEmpty(name)) throw new ArgumentException("Employee name cannot be null or empty.");
         }
 
-        public static void ValidateHourlyRate(double hourlyRate)
+        public static void ValidateHourlyRate(decimal hourlyRate)
         {
-            if (hourlyRate < 0) throw new ArgumentException("Valor por hora não pode ser negativo!");
+            if (hourlyRate < 0) throw new ArgumentException("Hourly rate cannot be negative.");
         }
     }
 
-    public class PayrollAnalyzer
+    public static class PayrollAnalyzer
     {
-        public static double FindHighestSalary(List<Employee> employees)
+        public static decimal FindHighestSalary(List<Employee> employees)
         {
+            if (employees == null || employees.Count == 0)
+                throw new ArgumentException("Employee list cannot be null or empty.");
 
-            if (employees == null || employees.Count == 0) throw new ArgumentException("A lista de funcionários não pode ser nula ou vazia.");
-
-            double highestSalary = employees[0].CalculatePay();
-            
+            decimal highestSalary = employees[0].CalculatePay();
             for (int i = 1; i < employees.Count; i++)
             {
                 if (highestSalary < employees[i].CalculatePay())
@@ -157,14 +153,14 @@ namespace EmpSys
                     highestSalary = employees[i].CalculatePay();
                 }
             }
-
             return highestSalary;
         }
 
         public static int CountFullTimeEmployees(List<Employee> employees)
         {
-            int count = 0;
+            if (employees == null || employees.Count == 0) return 0;
 
+            int count = 0;
             for (int i = 0; i < employees.Count; i++)
             {
                 if (employees[i] is FullTimeEmployee)
@@ -175,10 +171,11 @@ namespace EmpSys
             return count;
         }
 
-        public static double SumFullTimeSalaries(List<Employee> employees)
+        public static decimal SumFullTimeSalaries(List<Employee> employees)
         {
-            double sum = 0;
-            
+            if (employees == null || employees.Count == 0) return 0;
+
+            decimal sum = 0;
             for (int i = 0; i < employees.Count; i++)
             {
                 if (employees[i] is FullTimeEmployee)
@@ -189,7 +186,7 @@ namespace EmpSys
             return sum;
         }
 
-        public static Employee FindEmployeeById(int id, List<Employee> employees)
+        public static Employee FindEmployeeById(List<Employee> employees, int id)
         {
             if (employees == null || employees.Count == 0) return null;
 
@@ -200,7 +197,6 @@ namespace EmpSys
                     return employees[i];
                 }
             }
-            
             return null;
         }
     }
