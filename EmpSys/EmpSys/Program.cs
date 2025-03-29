@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace EmployeeSystem
+﻿namespace EmpSys
 {
     class Program
     {
@@ -106,7 +103,7 @@ namespace EmployeeSystem
 
         public override string GetRoleDescription()
         {
-            return $"Part-time employee in the {Department} department";
+            return $"Part-time employee in the {Department} department.";
         }
 
         public decimal CalculatePayWithBonus()
