@@ -1,4 +1,6 @@
-﻿namespace EmpSys
+﻿using System.Runtime.CompilerServices;
+
+namespace EmpSys
 {
     class Program
     {
@@ -13,16 +15,22 @@
                     new FullTimeEmployee(3, "Pedro", "RH", 4000.0)
                 };
 
+                var fullTimeEmployeer = PayrollAnalyzer.CountFullTimeEmployees(employees);
+
                 double highestSalary = PayrollAnalyzer.FindHighestSalary(employees);
                 Console.WriteLine($"Maior salário: {highestSalary}");
 
                 var emptyList = new List<Employee>();
                 Console.WriteLine($"Maior salário (lista vazia): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
+
+                Console.WriteLine($"Numero de FullTimeEmployees: {fullTimeEmployeer}");
             }
             catch (ArgumentException ex)
             {
                 Console.WriteLine($"Erro: {ex.Message}");
             }
+
+            
         }
     }
 
@@ -129,6 +137,20 @@
             if (employees == null || employees.Count == 0) throw new ArgumentException("A lista de funcionários não pode ser nula ou vazia.");
 
             return employees.Max(x => x.CalculatePay());
+        }
+
+        public static int CountFullTimeEmployees(List<Employee> employees)
+        {
+            int count = 0;
+
+            for (int i = 0; i < employees.Count; i++)
+            {
+                if (employees[i] is FullTimeEmployee)
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
 }
