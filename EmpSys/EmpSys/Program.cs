@@ -18,10 +18,13 @@ namespace EmpSys
                 var fullTimeEmployeer = PayrollAnalyzer.CountFullTimeEmployees(employees);
 
                 double highestSalary = PayrollAnalyzer.FindHighestSalary(employees);
+
                 Console.WriteLine($"Maior salário: {highestSalary}");
 
-                var emptyList = new List<Employee>();
-                Console.WriteLine($"Maior salário (lista vazia): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
+                Console.WriteLine($"Soma dos salários: {PayrollAnalyzer.SumFullTimeSalaries(employees)}");
+
+                //var emptyList = new List<Employee>();
+                //Console.WriteLine($"Maior salário (empty list): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
 
                 Console.WriteLine($"Numero de FullTimeEmployees: {fullTimeEmployeer}");
             }
@@ -29,8 +32,6 @@ namespace EmpSys
             {
                 Console.WriteLine($"Erro: {ex.Message}");
             }
-
-            
         }
     }
 
@@ -152,5 +153,21 @@ namespace EmpSys
             }
             return count;
         }
+
+        public static double SumFullTimeSalaries(List<Employee> employees)
+        {
+            double sum = 0;
+            
+            for (int i = 0; i < employees.Count; i++)
+            {
+                if (employees[i] is FullTimeEmployee)
+                {
+                    sum += employees[i].CalculatePay();
+                }
+            }
+            return sum;
+        }
+
+        //public static double 
     }
 }
