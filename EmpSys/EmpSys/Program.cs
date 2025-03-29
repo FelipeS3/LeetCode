@@ -27,6 +27,16 @@ namespace EmpSys
                 //Console.WriteLine($"Maior salário (empty list): {PayrollAnalyzer.FindHighestSalary(emptyList)}");
 
                 Console.WriteLine($"Numero de FullTimeEmployees: {fullTimeEmployeer}");
+
+                var employee = PayrollAnalyzer.FindEmployeeById(2, employees);
+                if (employee != null) Console.WriteLine($"Funcionário encontrado: {employee.Name}, {employee.CalculatePay()}");
+
+                else
+                {
+                    Console.WriteLine("Funcionário não encontrado");
+                }
+
+
             }
             catch (ArgumentException ex)
             {
@@ -135,9 +145,20 @@ namespace EmpSys
     {
         public static double FindHighestSalary(List<Employee> employees)
         {
+
             if (employees == null || employees.Count == 0) throw new ArgumentException("A lista de funcionários não pode ser nula ou vazia.");
 
-            return employees.Max(x => x.CalculatePay());
+            double highestSalary = employees[0].CalculatePay();
+            
+            for (int i = 1; i < employees.Count; i++)
+            {
+                if (highestSalary < employees[i].CalculatePay())
+                {
+                    highestSalary = employees[i].CalculatePay();
+                }
+            }
+
+            return highestSalary;
         }
 
         public static int CountFullTimeEmployees(List<Employee> employees)
@@ -168,6 +189,19 @@ namespace EmpSys
             return sum;
         }
 
-        //public static double 
+        public static Employee FindEmployeeById(int id, List<Employee> employees)
+        {
+            if (employees == null || employees.Count == 0) return null;
+
+            for (int i = 0; i < employees.Count; i++)
+            {
+                if (employees[i].Id == id)
+                {
+                    return employees[i];
+                }
+            }
+            
+            return null;
+        }
     }
 }
