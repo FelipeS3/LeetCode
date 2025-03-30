@@ -21,6 +21,7 @@
                 Console.WriteLine($"Total salary of full-time employees: {fullTimeSalarySum}");
                 Console.WriteLine($"Number of full-time employees: {fullTimeEmployeeCount}");
 
+
                 Employee foundEmployee = PayrollAnalyzer.FindEmployeeById(employees, 2);
                 if (foundEmployee != null)
                 {
