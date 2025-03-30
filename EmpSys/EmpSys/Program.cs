@@ -1,9 +1,12 @@
-﻿namespace EmpSys
+﻿using System.Runtime.CompilerServices;
+
+namespace EmpSys
 {
     class Program
     {
         static void Main(string[] args)
         {
+
             try
             {
                 var employees = new List<Employee>
@@ -20,6 +23,8 @@
                 Console.WriteLine($"Highest salary among all employees: {highestSalary}");
                 Console.WriteLine($"Total salary of full-time employees: {fullTimeSalarySum}");
                 Console.WriteLine($"Number of full-time employees: {fullTimeEmployeeCount}");
+                
+
 
                 Employee foundEmployee = PayrollAnalyzer.FindEmployeeById(employees, 2);
                 if (foundEmployee != null)
@@ -196,5 +201,7 @@
             }
             return null;
         }
+
     }
+    
 }
