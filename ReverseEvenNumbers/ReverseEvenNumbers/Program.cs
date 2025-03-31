@@ -25,19 +25,23 @@
 
             while (left < right)
             {
-                while (left < right && array[left] % 2 != 0 )
+                if (left < right && array[left] % 2 != 0)
                 {
                     left++;
                 }
 
-                while (right > left && array[right] % 2 != 0)
+                else if (right > left && array[right] % 2 != 0)
                 {
                     right--;
                 }
 
-                if (left < right)
+                else if (array[left] % 2 == 0 && array[right] % 2 == 0)
                 {
-                    int temp = 
+                    int temp = array[left];
+                    array[left] = array[right];
+                    array[right] = temp;
+                    left++;
+                    right--;
                 }
             }
 
