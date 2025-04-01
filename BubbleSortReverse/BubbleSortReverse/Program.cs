@@ -6,7 +6,8 @@
         {
             int[] test = new[] { 1, 2, 3, 4, 5, 6 };
 
-            Console.WriteLine(string.Join(",", BubbleSortReverse(test)));
+            Console.WriteLine(string.Join(",", BubbleSortReverse(test))); 
+
         }
 
         private static int[] BubbleSortReverse(int[] numbers)
